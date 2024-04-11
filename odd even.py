@@ -1,0 +1,8 @@
+# Odd and Even
+n=int(input("Enter the number: "))
+if n%2==1:
+    print("Weird")
+elif n%2==0 and n>=2 and n<=5:
+    print("Not Weird")
+else:
+    print("Not Weird")
